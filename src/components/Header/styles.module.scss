@@ -1,3 +1,28 @@
-.headerContainer {}
+.headerContainer {
+    align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #29292E;
+}
 
-.headerContent {}
+.headerContent {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    img {
+        margin-right: 3rem;
+    }
+
+    nav {
+        a {
+            & + a {
+                margin-left: 1.5rem;            
+            }
+    
+        }
+    }
+
+
+}
